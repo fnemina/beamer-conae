@@ -1,16 +1,48 @@
-\documentclass{beamer}
+\documentclass[]{beamer}
+
 \usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
 \usepackage[T1]{fontenc}
-\title{Titulo}
-\date{30 de febrero de 1990}
-\author{Euclid of Alexandria}
+\usepackage{lipsum}
+
+\uselanguage{Spanish}
+\languagepath{Spanish}
 
 \usetheme{conae}
 
+\title{TITULO\\[0.2cm] XXX \\[0.2cm] xxxxxxx}
+% Autor
+\author{AUTOR}
+% Emai
+\email{E-mail}
+% Lugar
+\place{Ciudad, Provincia, País}
+% Fecha
+\date{Fecha del evento}
+% Logo externo
+\logoext{logos/logo-ext.png}
+
 \begin{document}
 
-\begin{frame}
-\titlepage
+{
+\setbeamertemplate{footline}{}
+\begin{frame}[noframenumbering]
+  \titlepage
 \end{frame}
+}
+
+\begin{frame}[t]
+  \begin{center}
+  Contenidos
+  \end{center}
+\end{frame}
+
+\begin{frame}[t]
+  \begin{center}
+  Contenidos
+  \end{center}
+\end{frame}
+
+\gracias
 
 \end{document}
