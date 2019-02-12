@@ -1,7 +1,8 @@
 # beamer-conae
 
 Este es el tema de beamer para Latex basado en el archivo powerpoint enviado
-el 12 de febrero de 2019.
+el 12 de febrero de 2019. Basado en el style de SABIA-Mar creado por Ivanna
+Tropper.
 
 ## Consideraciones previas
 
