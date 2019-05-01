@@ -37,3 +37,6 @@ Para compilar la presentación debe usarse `lualatex` como
 ```bash
 lualatex presentacion.tex
 ```
+## Overleaf
+
+Es posible utilizar el estilo `conae` de `beamer` en Overleaf. En caso de hacerlo debe irse en el proyecto a `Menu` y en `Compiler` elegir `LuaLaTeX`.
